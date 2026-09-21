@@ -1,21 +1,47 @@
 # Zach Scheffler
 
-**Music producer · creative technologist · data scientist — Valencia, Spain**
+**Data Scientist & Machine Learning Engineer — San Francisco Bay Area**
 
-I didn't come up through a conservatory or a computer-science program — I came up
-through music production and public policy. I've been producing since 2013, spent
-the better part of a decade in data (a UCLA Master of Public Policy, the World Bank,
-NORC at the University of Chicago, Rios Partners), and in 2025 finished an M.M. in
-Music Production, Technology & Innovation at Berklee College of Music in Valencia.
-Now I build tools where music, data, and software meet.
+Applied data work from 2016 to 2023 across the World Bank, NORC at the University
+of Chicago, and Rios Partners, where I grew the data strategy work from an informal
+group into a standing practice and led it — NLP, geospatial, and web-scraping
+pipelines, and the statistical modeling built on them. I didn't come up through a
+computer-science program; I came up through public policy and music production, and
+I still ship the models myself. Since 2024 the proving ground has been audio: neural
+models running on-device, and a real-time C++ codebase with an allocation-free
+audio-thread test.
 
-### Find me
-
-- 🎛️ **Portfolio & interactive music tools** — [zachscheffler.com](https://zachscheffler.com)
 - 📄 **CV** — [zachscheffler.com/cv](https://zachscheffler.com/cv)
+- 🌐 **Portfolio** — [zachscheffler.com](https://zachscheffler.com)
 - 🔬 **Research** — [research.zachscheffler.com](https://research.zachscheffler.com)
-- 🎹 **AutoHarm** — a generative chord instrument that plays live MIDI into any DAW → [try it](https://colonelkernel.github.io/AutoHarm-Web/)
-- 🎵 **Streetcar Scandal** — my own music → [Spotify](https://open.spotify.com/artist/3np4vEs0UOE5zFEXmFEc9L)
+
+### Selected work
+
+**[World Transit Atlas](https://github.com/ColonelKernel/world-transit-atlas)** —
+201 metro and light-rail systems assembled from OpenStreetMap and open agency data.
+The interesting part is the measurement: ridership figures use three incompatible
+counting conventions, and separating them turned a headline result into a smaller,
+defensible one. The write-up documents the four rounds in which the claim shrank, and
+the check that found 28 of 30 Chinese systems mislabelled against the national
+statistics report.
+→ [case study](https://zachscheffler.com/projects/transit-atlas)
+
+**[Music Catalog Intelligence](https://zachscheffler.com/music-analytics)** —
+acquisition scoring, regression forecasting and rolling-variance risk over a public
+Spotify dataset. Every threshold is asserted in tests so the prose cannot drift from
+the code, and the page states what the forecast band gets wrong rather than hiding it.
+→ [case study](https://zachscheffler.com/projects/catalog-intelligence)
+
+**[Session-State Analyzer](https://github.com/ColonelKernel/session-state-explorer-ableton)** —
+one canonical schema across four DAWs, with partial observability treated as a
+first-class evidence tag rather than a missing value.
+→ [case study](https://zachscheffler.com/projects/session-state)
+
+**[AutoHarm](https://github.com/ColonelKernel/AutoHarm-Web)** — a generative chord
+instrument running a four-corpus Markov blend and two ONNX models in the browser,
+playing live MIDI into a DAW. Ported from a Max for Live device.
+→ [try it](https://colonelkernel.github.io/AutoHarm-Web/) ·
+[case study](https://zachscheffler.com/projects/autoharm)
 
 ### Ableton Live extensions
 
@@ -26,10 +52,12 @@ Built on the Ableton Extensions SDK (TypeScript):
 - [**Arrangement Architect**](https://github.com/ColonelKernel/ArrangementArchitect) — turn Session View sketches into section-by-section song blueprints
 - [**Live Console**](https://github.com/ColonelKernel/AbletonLiveConsole) — a command-palette workflow utility, inspired by REAPER's ReaConsole
 
-### Also building
+### The music
 
-Generative harmony (AutoHarm, the Autoharmonizer Max patch), a citation-backed world
-rhythm atlas, and browser-based rhythm and harmony tools that stay in sync — all at
-[zachscheffler.com](https://zachscheffler.com).
+Producing since 2013, and an M.M. in Music Production, Technology & Innovation from
+Berklee in 2025. It is not a side note: audio is the hardest thing I point these
+methods at, and most of what I know about latency, measurement and shipping under
+real constraints came from it.
 
-> My work sits at the intersection of music technology, data analysis, and computational modeling.
+→ [Streetcar Scandal on Spotify](https://open.spotify.com/artist/3np4vEs0UOE5zFEXmFEc9L)
+· [session and engineering credits](https://zachscheffler.com/work)
