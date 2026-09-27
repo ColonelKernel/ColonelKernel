@@ -1,6 +1,6 @@
 # Zach Scheffler
 
-**Data Scientist & Machine Learning Engineer — San Francisco Bay Area**
+**Data Scientist & Creative Systems Engineer — San Francisco Bay Area**
 
 Applied data work from 2016 to 2023 across the World Bank, NORC at the University
 of Chicago, and Rios Partners, where I grew the data strategy work from an informal
@@ -32,7 +32,7 @@ Spotify dataset. Every threshold is asserted in tests so the prose cannot drift 
 the code, and the page states what the forecast band gets wrong rather than hiding it.
 → [case study](https://zachscheffler.com/projects/catalog-intelligence)
 
-**[Session-State Analyzer](https://github.com/ColonelKernel/session-state-explorer-ableton)** —
+**[Session-State Analyzer](https://github.com/ColonelKernel/session-state-analyzer)** —
 one canonical schema across four DAWs, with partial observability treated as a
 first-class evidence tag rather than a missing value.
 → [case study](https://zachscheffler.com/projects/session-state)
